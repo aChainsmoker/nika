@@ -1,0 +1,20 @@
+concept_software_quality
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [качество программного обеспечения]
+    (* <- lang_ru;; *);
+    [software quality]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Совокупность характеристик продукта и процесса его создания, определяющих способность
+     удовлетворять установленным требованиям и потребностям пользователей. В настоящей
+     предметной области качество представляется через набор отдельных характеристик
+     качества, оцениваемых для каждого продукта.]
+    (* <- lang_ru;; *);
+    [The set of characteristics of a product and of the process of its creation that
+     determine its ability to satisfy the established requirements and user needs. In this
+     subject domain quality is represented through a set of separate quality
+     characteristics evaluated for each product.]
+    (* <- lang_en;; *);;

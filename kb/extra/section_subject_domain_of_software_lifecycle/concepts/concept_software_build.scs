@@ -1,0 +1,18 @@
+concept_software_build
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сборка программного обеспечения]
+    (* <- lang_ru;; *);
+    [software build]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Процесс получения целостного исполняемого образа из исходного кода путём компиляции,
+     компоновки и упаковки, дающий конкретную версию, пригодную для тестирования и
+     поставки.]
+    (* <- lang_ru;; *);
+    [The process of producing an integral executable image from the source code through
+     compilation, linking and packaging, yielding a specific version ready for testing and
+     delivery.]
+    (* <- lang_en;; *);;

@@ -1,0 +1,18 @@
+concept_software_release
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [выпуск программного обеспечения]
+    (* <- lang_ru;; *);
+    [software release]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Решение о передаче проверенной версии в эксплуатацию, сопровождаемое фиксацией
+     релиза с установленной версией, составом изменений и условиями его дальнейшего
+     сопровождения.]
+    (* <- lang_ru;; *);
+    [The decision to hand over a validated version for operation, accompanied by the
+     registration of a release with an established version, the composition of changes and
+     the conditions of its further maintenance.]
+    (* <- lang_en;; *);;

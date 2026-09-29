@@ -1,0 +1,50 @@
+architecture_linux_scheduler
+<- concept_software_architecture;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [архитектура подсистемы планирования ядра Linux]
+    (* <- lang_ru;; *);
+    [architecture of the Linux kernel scheduling subsystem]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Структурная модель подсистемы планирования: классы планировщиков, очереди готовности,
+     группы и ограничения на миграцию задач между процессорами.]
+    (* <- lang_ru;; *);
+    [A structural model of the scheduling subsystem: scheduler classes, run queues, groups and
+     the restrictions on task migration between processors.]
+    (* <- lang_en;; *);
+=> nrel_architecture_implementation: implementation_linux_scheduler;;
+
+architecture_postgresql_vacuum
+<- concept_software_architecture;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [архитектура подсистемы обслуживания PostgreSQL]
+    (* <- lang_ru;; *);
+    [architecture of the PostgreSQL maintenance subsystem]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Структурная модель обслуживания базы данных: координатор фонового процесса, рабочие
+     процессы и их взаимодействие с подсистемой хранения и журналом транзакций.]
+    (* <- lang_ru;; *);
+    [A structural model of the database maintenance: the background process coordinator, the
+     workers and their interaction with the storage subsystem and the transaction log.]
+    (* <- lang_en;; *);
+=> nrel_architecture_implementation: implementation_postgresql_vacuum;;
+
+architecture_skyway_booking_core
+<- concept_software_architecture;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [архитектура ядра бронирования «Скайвей»]
+    (* <- lang_ru;; *);
+    [architecture of the Skyway booking core]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Структурная модель сервиса бронирования: модуль поиска, модуль выбора тарифа, модуль
+     удержания мест и модуль оплаты с определёнными контрактами взаимодействия.]
+    (* <- lang_ru;; *);
+    [A structural model of the booking service: the search module, the fare selection module,
+     the seat holding module and the payment module with defined interaction contracts.]
+    (* <- lang_en;; *);
+=> nrel_architecture_implementation: implementation_skyway_seat_lock;;

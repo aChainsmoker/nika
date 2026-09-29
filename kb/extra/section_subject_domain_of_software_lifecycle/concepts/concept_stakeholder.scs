@@ -1,0 +1,19 @@
+concept_stakeholder
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [заинтересованная сторона]
+    (* <- lang_ru;; *);
+    [stakeholder]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Физическое или юридическое лицо, группа либо организация, чьи интересы зависят от
+     программного обеспечения или которые способны влиять на его создание, эксплуатацию
+     и сопровождение, например заказчик, пользователь, разработчик или служба
+     эксплуатации.]
+    (* <- lang_ru;; *);
+    [An individual or legal entity, group or organization whose interests depend on the
+     software or which is able to influence its creation, operation and maintenance, for
+     example a customer, a user, a developer or an operations team.]
+    (* <- lang_en;; *);;

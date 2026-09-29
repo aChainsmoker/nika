@@ -1,0 +1,20 @@
+concept_requirements_gathering
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сбор требований к программному обеспечению]
+    (* <- lang_ru;; *);
+    [software requirements gathering]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Процесс выявления, анализа, согласования и документирования требований к программному
+     обеспечению, а также их приоритизации и устранения противоречий между
+     заинтересованными сторонами. Результатом сбора требований становится согласованный и
+     проверяемый набор требований, передаваемый на проектирование.]
+    (* <- lang_ru;; *);
+    [The process of eliciting, analysing, agreeing and documenting the requirements for the
+     software, as well as prioritizing them and eliminating contradictions between the
+     stakeholders. The result of requirements gathering is an agreed and verifiable set of
+     requirements passed to design.]
+    (* <- lang_en;; *);;

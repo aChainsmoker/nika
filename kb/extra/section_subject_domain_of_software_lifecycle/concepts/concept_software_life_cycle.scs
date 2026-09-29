@@ -1,0 +1,17 @@
+concept_software_life_cycle
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [жизненный цикл программного обеспечения]
+    (* <- lang_ru;; *);
+    [software life cycle]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Упорядоченная последовательность стадий, которые проходит программное обеспечение
+     от формирования требований до завершения сопровождения, охватывающая его создание,
+     применение и развитие.]
+    (* <- lang_ru;; *);
+    [An ordered sequence of stages that software passes through from requirements
+     definition to the completion of maintenance, covering its creation, use and evolution.]
+    (* <- lang_en;; *);;

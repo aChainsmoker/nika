@@ -1,0 +1,55 @@
+nrel_software_stakeholder
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [заинтересованная сторона программного обеспечения*]
+    (* <- lang_ru;; *);
+    [software stakeholder*]
+    (* <- lang_en;; *);
+=> nrel_first_domain: concept_software;
+=> nrel_second_domain: concept_stakeholder;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software;
+            concept_stakeholder
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (заинтересованная сторона программного обеспечения*)]
+            (* <- lang_ru;; *);
+            [Def. (software stakeholder*)]
+            (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Заинтересованная сторона программного обеспечения* - бинарное
+                     ориентированное отношение, связывающее программное обеспечение с
+                     заинтересованной стороной, интересы которой зависят от этого
+                     программного обеспечения.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Software stakeholder* is a binary oriented relation linking software
+                     to a stakeholder whose interests depend on that software.]
+                    (* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+                concept_software;
+                concept_stakeholder
+            };;
+    *);;

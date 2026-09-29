@@ -1,0 +1,17 @@
+concept_software_operation
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [эксплуатация программного обеспечения]
+    (* <- lang_ru;; *);
+    [software operation]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Использование развёрнутой версии по своему назначению, включающее контроль её работы,
+     обработку поступающих сбоев, запросов пользователей и обращений заинтересованных
+     сторон.]
+    (* <- lang_ru;; *);
+    [The use of a deployed version for its intended purpose, including monitoring of its
+     work, handling of incoming failures, user requests and stakeholder inquiries.]
+    (* <- lang_en;; *);;

@@ -1,0 +1,55 @@
+nrel_build_testing
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [тестирование собранной версии*]
+    (* <- lang_ru;; *);
+    [testing of built version*]
+    (* <- lang_en;; *);
+=> nrel_first_domain: concept_software_build;
+=> nrel_second_domain: concept_software_testing;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software_build;
+            concept_software_testing
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (тестирование собранной версии*)]
+            (* <- lang_ru;; *);
+            [Def. (testing of built version*)]
+            (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Тестирование собранной версии* - бинарное ориентированное отношение,
+                     связывающее сборку с её тестированием, в ходе которого проверяется
+                     соответствие версии предъявленным требованиям.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Testing of built version* is a binary oriented relation linking a build
+                     to its testing, during which the conformity of the version to the
+                     imposed requirements is checked.]
+                    (* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+                concept_software_build;
+                concept_software_testing
+            };;
+    *);;

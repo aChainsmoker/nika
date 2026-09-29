@@ -1,0 +1,69 @@
+design_linux_scheduler
+<- concept_software_design;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [проектное решение по планировщику задач ядра Linux]
+    (* <- lang_ru;; *);
+    [design of the Linux kernel task scheduler]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Проектное описание, определяющее выбор алгоритма планирования, поведение очередей
+     готовности и условия переноса задач между группами процессоров.]
+    (* <- lang_ru;; *);
+    [A design description that determines the choice of the scheduling algorithm, the
+     behaviour of run queues and the conditions for migrating tasks between processor
+     groups.]
+    (* <- lang_en;; *);
+=> nrel_design_architecture: architecture_linux_scheduler;;
+
+design_postgresql_vacuum
+<- concept_software_design;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [проектное решение по обслуживанию базы данных]
+    (* <- lang_ru;; *);
+    [design of database maintenance]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Проектное описание настройки фонового процесса обслуживания: выбор числа рабочих
+     процессов, параметров захвата блокировок и порядка обхода таблиц и индексов.]
+    (* <- lang_ru;; *);
+    [A design description for configuring the background maintenance process: the choice of
+     the number of workers, the lock acquisition parameters and the order of traversing
+     tables and indexes.]
+    (* <- lang_en;; *);
+=> nrel_design_architecture: architecture_postgresql_vacuum;;
+
+design_skyway_seat_lock
+<- concept_software_design;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [проектное решение по бронированию мест]
+    (* <- lang_ru;; *);
+    [seat booking design]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Проектное описание сценария резервирования места: состояния заказа, тайм-ауты удержания,
+     обработка конкурентных заявок и повторных попыток подтверждения.]
+    (* <- lang_ru;; *);
+    [A design description of the seat reservation scenario: order states, hold timeouts,
+     handling of concurrent requests and of repeated confirmation attempts.]
+    (* <- lang_en;; *);
+=> nrel_design_architecture: architecture_skyway_booking_core;;
+
+design_skyway_pricing
+<- concept_software_design;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [проектное решение по расчёту стоимости билета]
+    (* <- lang_ru;; *);
+    [fare calculation design]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Проектное описание правил формирования цены: тарифы, сборы, поддерживаемые валюты и
+     порядок фиксации предложения на момент начала оформления заказа.]
+    (* <- lang_ru;; *);
+    [A design description of the fare formation rules: tariffs, fees, supported currencies
+     and the order of fixing the offer at the moment the booking is started.]
+    (* <- lang_en;; *);
+=> nrel_design_architecture: architecture_skyway_booking_core;;

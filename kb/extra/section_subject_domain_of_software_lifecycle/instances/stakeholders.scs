@@ -1,0 +1,95 @@
+stakeholder_linux_foundation
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Фонд Linux]
+    (* <- lang_ru;; *);
+    [The Linux Foundation]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Некоммерческая организация, поддерживающая разработку ядра Linux, инфраструктуру
+     проектов с открытым исходным кодом и программы сертификации участников рынка.]
+    (* <- lang_ru;; *);
+    [A non-profit organization that supports Linux kernel development, the infrastructure of
+     open source projects and the certification programs of market participants.]
+    (* <- lang_en;; *);;
+
+stakeholder_postgresql_global_development_group
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Глобальная группа разработки PostgreSQL]
+    (* <- lang_ru;; *);
+    [PostgreSQL Global Development Group]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Объединение компаний и разработчиков, определяющее направление развития PostgreSQL,
+     принимающее решения о выпуске версий и о приоритетах исправлений.]
+    (* <- lang_ru;; *);
+    [An association of companies and developers that determines the development direction of
+     PostgreSQL and makes decisions on releases and fix priorities.]
+    (* <- lang_en;; *);;
+
+stakeholder_git_maintainers
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [мейнтейнеры проекта Git]
+    (* <- lang_ru;; *);
+    [Git project maintainers]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Команда, принимающая изменения в ядро Git, анализирующая сообщения об ошибках и
+     планирующая выпуски исправляющих версий.]
+    (* <- lang_ru;; *);
+    [The team that merges changes into the Git core, analyzes bug reports and plans releases
+     of fixing versions.]
+    (* <- lang_en;; *);;
+
+stakeholder_skyway_product_owner
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [владелец продукта «Скайвей»]
+    (* <- lang_ru;; *);
+    [Skyway product owner]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Должностное лицо, отвечающее за приоритизацию требований к бронированию, за приёмку
+     версий и за соответствие продукта целям авиакомпании.]
+    (* <- lang_ru;; *);
+    [A person responsible for prioritizing booking requirements, for version acceptance and
+     for the conformity of the product with the airline's goals.]
+    (* <- lang_en;; *);;
+
+stakeholder_skyway_customers
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [пассажиры платформы «Скайвей»]
+    (* <- lang_ru;; *);
+    [Skyway platform passengers]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Пользователи сервиса, для которых корректность брони, своевременность подтверждения
+     и предсказуемость стоимости являются основными требованиями к системе.]
+    (* <- lang_ru;; *);
+    [Users of the service for whom the correctness of bookings, the timeliness of confirmation
+     and the predictability of the fare are the primary requirements to the system.]
+    (* <- lang_en;; *);;
+
+stakeholder_skyway_operations_team
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [служба эксплуатации «Скайвей»]
+    (* <- lang_ru;; *);
+    [Skyway operations team]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Подразделение, обеспечивающее круглосуточную работу сервиса бронирования, обработку
+     инцидентов и взаимодействие со службами авиакомпании.]
+    (* <- lang_ru;; *);
+    [A department providing round-the-clock operation of the booking service, handling
+     incidents and interacting with the airline services.]
+    (* <- lang_en;; *);;

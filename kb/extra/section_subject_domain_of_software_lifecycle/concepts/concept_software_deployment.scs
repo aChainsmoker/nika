@@ -1,0 +1,18 @@
+concept_software_deployment
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [развёртывание программного обеспечения]
+    (* <- lang_ru;; *);
+    [software deployment]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Процесс установки выпущенной версии на целевую аппаратно-программную платформу и
+     настройки её параметров для работы в конкретной среде, в том числе подключения к
+     внешним системам.]
+    (* <- lang_ru;; *);
+    [The process of installing a released version onto the target hardware and software
+     platform and configuring it to operate in a particular environment, including
+     integration with external systems.]
+    (* <- lang_en;; *);;

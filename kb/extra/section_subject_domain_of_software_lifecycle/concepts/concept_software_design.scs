@@ -1,0 +1,20 @@
+concept_software_design
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [проектирование программного обеспечения]
+    (* <- lang_ru;; *);
+    [software design]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Процесс создания проектного описания системы: выбора её структуры, алгоритмов и
+     способов взаимодействия компонентов так, чтобы удовлетворить сформулированным
+     требованиям. Результатом проектирования является проектное решение, готовое к
+     передаче в реализацию.]
+    (* <- lang_ru;; *);
+    [The process of creating the project's description of the system: choosing its
+     structure, algorithms and interaction methods of the components so as to satisfy the
+     formulated requirements. The result of design is a design decision ready to be passed
+     to implementation.]
+    (* <- lang_en;; *);;

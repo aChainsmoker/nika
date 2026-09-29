@@ -1,0 +1,101 @@
+software_linux_kernel
+<- concept_software;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [ядро Linux]
+    (* <- lang_ru;; *);
+    [Linux kernel]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Операционная система общего назначения и основа Linux-систем, исходный код которого
+     разрабатывается и сопровождается большим сообществом разработчиков.]
+    (* <- lang_ru;; *);
+    [A general-purpose operating system and the basis of Linux systems, whose source code
+     is developed and maintained by a large community of developers.]
+    (* <- lang_en;; *);
+=> nrel_software_problem: problem_linux_scheduler_latency;
+=> nrel_software_stakeholder: stakeholder_linux_foundation;
+=> nrel_software_requirement: requirement_linux_scheduler_latency;
+=> nrel_software_planning: planning_linux_scheduler_subsystem;
+=> nrel_software_quality:
+    quality_reliability;
+    quality_performance;
+    quality_maintainability;;
+
+software_postgresql
+<- concept_software;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [PostgreSQL]
+    (* <- lang_ru;; *);
+    [PostgreSQL]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Свободная объектно-реляционная система управления базами данных с сильной поддержкой
+     транзакций, расширяемостью и развитыми механизмами обеспечения целостности.]
+    (* <- lang_ru;; *);
+    [A free object-relational database management system with strong transaction support,
+     extensibility and advanced integrity mechanisms.]
+    (* <- lang_en;; *);
+=> nrel_software_problem: problem_postgresql_replication_lag;
+=> nrel_software_stakeholder: stakeholder_postgresql_global_development_group;
+=> nrel_software_requirement: requirement_postgresql_vacuum_efficiency;
+=> nrel_software_planning: planning_postgresql_vacuum_release;
+=> nrel_software_quality:
+    quality_reliability;
+    quality_security;
+    quality_availability;;
+
+software_git
+<- concept_software;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Git]
+    (* <- lang_ru;; *);
+    [Git]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Распределённая система контроля версий, ориентированная на скорость выполнения
+     операций и поддержку распределённой разработки.]
+    (* <- lang_ru;; *);
+    [A distributed version control system focused on the speed of operations and on
+     supporting distributed development.]
+    (* <- lang_en;; *);
+=> nrel_software_problem: problem_git_merge_scaling;
+=> nrel_software_stakeholder: stakeholder_git_maintainers;
+=> nrel_software_planning: planning_git_merge_performance;
+=> nrel_software_quality:
+    quality_reliability;
+    quality_maintainability;;
+
+software_skyway_booking
+<- concept_software;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [система бронирования «Скайвей»]
+    (* <- lang_ru;; *);
+    [Skyway booking system]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Вымышленная платформа бронирования авиабилетов, обеспечивающая поиск рейсов, выбор
+     тарифа, удержание места в резерве и приём оплаты.]
+    (* <- lang_ru;; *);
+    [A fictional flight booking platform providing flight search, fare selection, seat
+     reservation hold and payment acceptance.]
+    (* <- lang_en;; *);
+=> nrel_software_problem:
+    problem_skyway_double_booking;
+    problem_skyway_price_mismatch;
+=> nrel_software_stakeholder:
+    stakeholder_skyway_product_owner;
+    stakeholder_skyway_customers;
+    stakeholder_skyway_operations_team;
+=> nrel_software_requirement:
+    requirement_skyway_seat_locking;
+    requirement_skyway_price_consistency;
+=> nrel_software_planning:
+    planning_skyway_booking_launch;
+=> nrel_software_quality:
+    quality_performance;
+    quality_security;
+    quality_availability;;

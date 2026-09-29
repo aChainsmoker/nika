@@ -1,0 +1,21 @@
+concept_software_architecture
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+<= nrel_inclusion: concept_software_design;
+=> nrel_main_idtf:
+    [архитектура программного обеспечения]
+    (* <- lang_ru;; *);
+    [software architecture]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Структурная модель системы, определяющая состав её крупных компонентов и характер
+     их взаимосвязей. Архитектура является частным случаем проектирования
+     (concept_software_design), описывающим устройство системы на верхнем уровне её
+     декомпозиции, и выступает основой для реализации.]
+    (* <- lang_ru;; *);
+    [A structural model of the system that determines the composition of its major
+     components and the nature of their interrelations. Architecture is a particular case
+     of design (concept_software_design) that describes the structure of the system at the
+     upper level of its decomposition and serves as a basis for implementation.]
+    (* <- lang_en;; *);;

@@ -1,0 +1,20 @@
+concept_software_problem
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [проблема программного обеспечения]
+    (* <- lang_ru;; *);
+    [software problem]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Обнаруженное несоответствие между поведением программного обеспечения и требуемым,
+     а также нарушение ограничений, приемлемых для его эксплуатации и сопровождения.
+     Проблема является источником новых требований и основанием для дальнейшей работы
+     по жизненному циклу.]
+    (* <- lang_ru;; *);
+    [A detected discrepancy between the behaviour of the software and the required one,
+     as well as a violation of the constraints acceptable for its operation and
+     maintenance. A problem is a source of new requirements and a basis for further life
+     cycle work.]
+    (* <- lang_en;; *);;

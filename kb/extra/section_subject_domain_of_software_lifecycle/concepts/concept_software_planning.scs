@@ -1,0 +1,20 @@
+concept_software_planning
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [планирование программного обеспечения]
+    (* <- lang_ru;; *);
+    [software planning]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Деятельность по определению объёма, состава работ, сроков, ресурсов и рисков
+     предстоящих работ над программным обеспечением, а также по согласованию этих
+     параметров с заинтересованными сторонами. Планирование открывает жизненный цикл и
+     задаёт рамку для сбора требований и всех последующих стадий.]
+    (* <- lang_ru;; *);
+    [The activity of determining the scope, the work content, the schedule, the resources and
+     the risks of the forthcoming work on the software, and of agreeing these parameters with
+     the stakeholders. Planning opens the life cycle and sets the frame for requirements
+     gathering and for all the subsequent stages.]
+    (* <- lang_en;; *);;

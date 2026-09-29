@@ -1,0 +1,74 @@
+planning_linux_scheduler_subsystem
+<- concept_software_planning;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [планирование работ над подсистемой планирования ядра Linux]
+    (* <- lang_ru;; *);
+    [planning of the Linux kernel scheduling subsystem work]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [План работ, определяющий объём изменений подсистемы планирования, сроки их слияния с
+     основной ветвью ядра и состав участников со стороны сообщества разработчиков.]
+    (* <- lang_ru;; *);
+    [A work plan defining the scope of the scheduling subsystem changes, the schedule of
+     merging them into the main kernel branch and the participants from the developer
+     community.]
+    (* <- lang_en;; *);
+=> nrel_software_stakeholder: stakeholder_linux_foundation;;
+
+planning_postgresql_vacuum_release
+<- concept_software_planning;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [планирование выпуска версии PostgreSQL 16.2]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16.2 release planning]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [План подготовки внепланового выпуска, определяющий перечень исправлений, порядок их
+     сборки в стабильной ветке и критерии перевода ветки в состояние готовности к
+     эксплуатации.]
+    (* <- lang_ru;; *);
+    [A plan for preparing an out-of-cycle release that defines the list of fixes, the order of
+     building them into the stable branch and the criteria for bringing the branch to a
+     ready-to-operate state.]
+    (* <- lang_en;; *);
+=> nrel_software_stakeholder: stakeholder_postgresql_global_development_group;;
+
+planning_git_merge_performance
+<- concept_software_planning;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [планирование работы над производительностью слияния в Git]
+    (* <- lang_ru;; *);
+    [planning of the merge performance work in Git]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [План профилирования и оптимизации слияния в крупных репозиториях, оценивающий
+     необходимые изменения в алгоритмах обхода дерева и в способе распределения памяти.]
+    (* <- lang_ru;; *);
+    [A plan for profiling and optimizing merging in large repositories, assessing the changes
+     needed in the tree traversal algorithms and in the way memory is allocated.]
+    (* <- lang_en;; *);
+=> nrel_software_stakeholder: stakeholder_git_maintainers;;
+
+planning_skyway_booking_launch
+<- concept_software_planning;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [планирование запуска системы бронирования «Скайвей»]
+    (* <- lang_ru;; *);
+    [Skyway booking system launch planning]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [План запуска платформы в промышленную эксплуатацию, определяющий состав
+     подготовительных работ, требуемые ресурсы и согласованные с заказчиком сроки
+     ввода в эксплуатацию.]
+    (* <- lang_ru;; *);
+    [A plan for bringing the platform into industrial operation that defines the preparatory
+     work, the required resources and the deadlines for entering operation agreed with the
+     customer.]
+    (* <- lang_en;; *);
+=> nrel_software_stakeholder:
+    stakeholder_skyway_product_owner;
+    stakeholder_skyway_operations_team;;

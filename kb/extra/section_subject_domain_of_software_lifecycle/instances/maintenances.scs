@@ -1,0 +1,63 @@
+maintenance_linux_kernel_6_8_lts
+<- concept_software_maintenance;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сопровождение ветки ядра Linux 6.8.y]
+    (* <- lang_ru;; *);
+    [Linux kernel 6.8.y branch maintenance]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Исправление выявленных дефектов и перенос исправлений в ветку длительной поддержки,
+     в которую переносятся только критичные изменения.]
+    (* <- lang_ru;; *);
+    [Fixing the detected defects and backporting the fixes into the long-term support branch,
+     which receives only critical changes.]
+    (* <- lang_en;; *);;
+
+maintenance_postgresql_16_branch
+<- concept_software_maintenance;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сопровождение ветки PostgreSQL 16]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16 branch maintenance]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Регулярный выпуск минорных версий стабильной ветки с исправлениями безопасности и
+     улучшениями производительности обслуживания.]
+    (* <- lang_ru;; *);
+    [Regular releases of minor versions of the stable branch with security fixes and
+     improvements to the maintenance performance.]
+    (* <- lang_en;; *);;
+
+maintenance_git_2_45_x
+<- concept_software_maintenance;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сопровождение серии выпусков Git 2.45.x]
+    (* <- lang_ru;; *);
+    [Git 2.45.x release series maintenance]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Выпуск исправляющих версий серии 2.45.x по результатам сообщений об ошибках,
+     поступающих от пользователей после выхода основной версии.]
+    (* <- lang_ru;; *);
+    [Releasing fixing versions of the 2.45.x series on the basis of the bug reports received
+     from users after the main version has been released.]
+    (* <- lang_en;; *);;
+
+maintenance_skyway_booking_1_0_1
+<- concept_software_maintenance;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сопровождение версии «Скайвей» 1.0.1]
+    (* <- lang_ru;; *);
+    [Skyway version 1.0.1 maintenance]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Устранение выявленных при промышленной эксплуатации дефектов бронирования, включая
+     гонку двойного бронирования места и расхождение стоимости между поиском и оплатой.]
+    (* <- lang_ru;; *);
+    [Elimination of the booking defects detected during industrial operation, including the
+     double seat booking race and the fare mismatch between search and payment.]
+    (* <- lang_en;; *);;

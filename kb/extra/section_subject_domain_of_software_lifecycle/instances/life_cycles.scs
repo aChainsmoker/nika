@@ -1,0 +1,121 @@
+life_cycle_linux_kernel
+<- concept_software_life_cycle;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [жизненный цикл ядра Linux]
+    (* <- lang_ru;; *);
+    [Linux kernel life cycle]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Совокупность стадий, через которые проходит ядро Linux: от уточнения требований к
+     подсистеме планирования до завершения её сопровождения в ветке длительной поддержки.]
+    (* <- lang_ru;; *);
+    [The set of stages the Linux kernel passes through: from clarifying the requirements for
+     the scheduling subsystem to the completion of its maintenance in the long-term
+     support branch.]
+    (* <- lang_en;; *);
+=> nrel_life_cycle_software: software_linux_kernel;
+=> nrel_life_cycle_stage:
+    planning_linux_scheduler_subsystem;
+    requirements_gathering_linux_scheduler_latency;
+    requirement_linux_scheduler_latency;
+    design_linux_scheduler;
+    architecture_linux_scheduler;
+    implementation_linux_scheduler;
+    build_linux_kernel_6_8;
+    testing_linux_kernel_selftests;
+    release_linux_kernel_6_8;
+    deployment_linux_kernel_6_8;
+    operation_linux_kernel_6_8;
+    maintenance_linux_kernel_6_8_lts;;
+
+life_cycle_postgresql
+<- concept_software_life_cycle;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [жизненный цикл PostgreSQL]
+    (* <- lang_ru;; *);
+    [PostgreSQL life cycle]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Совокупность стадий, через которые проходит PostgreSQL: от формулирования требований
+     к обслуживанию больших таблиц до выпуска исправлений в стабильной ветке версии 16.]
+    (* <- lang_ru;; *);
+    [The set of stages PostgreSQL passes through: from formulating the requirements for the
+     maintenance of large tables to issuing fixes in the stable 16 branch.]
+    (* <- lang_en;; *);
+=> nrel_life_cycle_software: software_postgresql;
+=> nrel_life_cycle_stage:
+    planning_postgresql_vacuum_release;
+    requirements_gathering_postgresql_vacuum_efficiency;
+    requirement_postgresql_vacuum_efficiency;
+    design_postgresql_vacuum;
+    architecture_postgresql_vacuum;
+    implementation_postgresql_vacuum;
+    build_postgresql_16_2;
+    testing_postgresql_regression;
+    release_postgresql_16_2;
+    deployment_postgresql_16_2_cluster;
+    operation_postgresql_16_2_production;
+    maintenance_postgresql_16_branch;;
+
+life_cycle_git
+<- concept_software_life_cycle;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [жизненный цикл Git]
+    (* <- lang_ru;; *);
+    [Git life cycle]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Жизненный цикл системы контроля версий, в рамках которого начиная со сборки и
+     последующих выпусков исправляются дефекты производительности при слиянии в крупных
+     репозиториях.]
+    (* <- lang_ru;; *);
+    [The life cycle of a version control system in which, starting from the build and the
+     subsequent releases, the performance defects of merging in large repositories are
+     corrected.]
+    (* <- lang_en;; *);
+=> nrel_life_cycle_software: software_git;
+=> nrel_life_cycle_stage:
+    planning_git_merge_performance;
+    build_git_2_45;
+    testing_git_ci;
+    release_git_2_45;
+    deployment_git_hosting;
+    operation_git_hosting;
+    maintenance_git_2_45_x;;
+
+life_cycle_skyway_booking
+<- concept_software_life_cycle;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [жизненный цикл системы бронирования «Скайвей»]
+    (* <- lang_ru;; *);
+    [Skyway booking system life cycle]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Совокупность стадий, через которые проходит система бронирования «Скайвей»: от
+     устранения обнаруженных при эксплуатации проблем бронирования до выпуска их
+     исправлений в версии 1.0.1.]
+    (* <- lang_ru;; *);
+    [The set of stages the Skyway booking system passes through: from eliminating the
+     booking problems detected during operation to issuing their fixes in version 1.0.1.]
+    (* <- lang_en;; *);
+=> nrel_life_cycle_software: software_skyway_booking;
+=> nrel_life_cycle_stage:
+    planning_skyway_booking_launch;
+    requirements_gathering_skyway_seat_locking;
+    requirements_gathering_skyway_price_consistency;
+    requirement_skyway_seat_locking;
+    requirement_skyway_price_consistency;
+    design_skyway_seat_lock;
+    design_skyway_pricing;
+    architecture_skyway_booking_core;
+    implementation_skyway_seat_lock;
+    build_skyway_booking_1_0;
+    testing_skyway_booking_e2e;
+    release_skyway_booking_1_0;
+    deployment_skyway_booking_prod_eu;
+    operation_skyway_booking_support;
+    maintenance_skyway_booking_1_0_1;;

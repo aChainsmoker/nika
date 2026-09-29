@@ -1,0 +1,67 @@
+build_linux_kernel_6_8
+<- concept_software_build;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сборка ядра Linux 6.8]
+    (* <- lang_ru;; *);
+    [Linux kernel 6.8 build]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Результат компиляции и компоновки ядра с поддержкой целевых архитектур: подписанный
+     загрузочный образ и пакеты для дистрибутивов.]
+    (* <- lang_ru;; *);
+    [The result of compiling and linking the kernel with support for the target
+     architectures: a signed boot image and packages for distributions.]
+    (* <- lang_en;; *);
+=> nrel_build_testing: testing_linux_kernel_selftests;;
+
+build_postgresql_16_2
+<- concept_software_build;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сборка PostgreSQL 16.2]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16.2 build]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Собранные исполняемые файлы сервера и клиентских утилит вместе с пакетом
+     регрессионных тестов.]
+    (* <- lang_ru;; *);
+    [The built executables of the server and client utilities together with the regression
+     test suite package.]
+    (* <- lang_en;; *);
+=> nrel_build_testing: testing_postgresql_regression;;
+
+build_git_2_45
+<- concept_software_build;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сборка Git 2.45]
+    (* <- lang_ru;; *);
+    [Git 2.45 build]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Собранный исполняемый файл системы контроля версий и сопутствующие утилиты для
+     работы с репозиториями.]
+    (* <- lang_ru;; *);
+    [The built executable of the version control system and the accompanying utilities for
+     working with repositories.]
+    (* <- lang_en;; *);
+=> nrel_build_testing: testing_git_ci;;
+
+build_skyway_booking_1_0
+<- concept_software_build;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сборка системы бронирования «Скайвей» 1.0]
+    (* <- lang_ru;; *);
+    [Skyway booking system 1.0 build]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Собранный образ сервиса бронирования с установленной версией 1.0, подготовленный для
+     развёртывания в целевой среде.]
+    (* <- lang_ru;; *);
+    [The built image of the booking service with the established version 1.0, prepared for
+     deployment in the target environment.]
+    (* <- lang_en;; *);
+=> nrel_build_testing: testing_skyway_booking_e2e;;

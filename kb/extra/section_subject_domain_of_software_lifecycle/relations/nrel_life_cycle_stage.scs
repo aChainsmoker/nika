@@ -1,0 +1,74 @@
+nrel_life_cycle_stage
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [стадия жизненного цикла*]
+    (* <- lang_ru;; *);
+    [life cycle stage*]
+    (* <- lang_en;; *);
+=> nrel_first_domain: concept_software_life_cycle;
+=> nrel_second_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software_requirement;
+            concept_software_design;
+            concept_software_architecture;
+            concept_software_implementation;
+            concept_software_build;
+            concept_software_testing;
+            concept_software_release;
+            concept_software_deployment;
+            concept_software_operation;
+            concept_software_maintenance
+        };;
+    *);
+=> nrel_definitional_domain: concept_software_life_cycle;
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (стадия жизненного цикла*)]
+            (* <- lang_ru;; *);
+            [Def. (life cycle stage*)]
+            (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Стадия жизненного цикла* - бинарное ориентированное отношение,
+                     связывающее жизненный цикл с одной из его стадий: требованием,
+                     проектированием, архитектурой, реализацией, сборкой, тестированием,
+                     выпуском, развёртыванием, эксплуатацией или сопровождением.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Life cycle stage* is a binary oriented relation linking a life cycle
+                     to one of its stages: a requirement, design, architecture,
+                     implementation, build, testing, release, deployment, operation or
+                     maintenance.]
+                    (* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+                concept_software_life_cycle;
+                concept_software_requirement;
+                concept_software_design;
+                concept_software_architecture;
+                concept_software_implementation;
+                concept_software_build;
+                concept_software_testing;
+                concept_software_release;
+                concept_software_deployment;
+                concept_software_operation;
+                concept_software_maintenance
+            };;
+    *);;

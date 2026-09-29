@@ -1,0 +1,67 @@
+release_linux_kernel_6_8
+<- concept_software_release;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [выпуск ядра Linux 6.8]
+    (* <- lang_ru;; *);
+    [Linux kernel 6.8 release]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Зафиксированный релиз с составом прошедших самотестирование изменений подсистемы
+     планирования и подписью мейнтейнеров проекта.]
+    (* <- lang_ru;; *);
+    [A recorded release containing the scheduling subsystem changes that passed self-testing
+     and signed by the project maintainers.]
+    (* <- lang_en;; *);
+=> nrel_release_deployment: deployment_linux_kernel_6_8;;
+
+release_postgresql_16_2
+<- concept_software_release;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [выпуск PostgreSQL 16.2]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16.2 release]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Зафиксированный релиз стабильной ветки с исправлениями, принятыми по итогам
+     регрессионного тестирования.]
+    (* <- lang_ru;; *);
+    [A recorded release of the stable branch with the fixes accepted on the results of the
+     regression testing.]
+    (* <- lang_en;; *);
+=> nrel_release_deployment: deployment_postgresql_16_2_cluster;;
+
+release_git_2_45
+<- concept_software_release;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [выпуск Git 2.45]
+    (* <- lang_ru;; *);
+    [Git 2.45 release]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Опубликованная версия системы контроля версий с составом исправлений и улучшений
+     производительности операций слияния.]
+    (* <- lang_ru;; *);
+    [A published version of the version control system with the composition of fixes and
+     improvements to the performance of merge operations.]
+    (* <- lang_en;; *);
+=> nrel_release_deployment: deployment_git_hosting;;
+
+release_skyway_booking_1_0
+<- concept_software_release;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [выпуск системы бронирования «Скайвей» 1.0]
+    (* <- lang_ru;; *);
+    [Skyway booking system 1.0 release]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Первый промышленный релиз системы бронирования, принятый по результатам сквозного
+     тестирования и зафиксированный как базовая версия продукта.]
+    (* <- lang_ru;; *);
+    [The first production release of the booking system, accepted on the results of the
+     end-to-end testing and recorded as the baseline version of the product.]
+    (* <- lang_en;; *);
+=> nrel_release_deployment: deployment_skyway_booking_prod_eu;;

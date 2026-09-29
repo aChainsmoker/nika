@@ -1,0 +1,74 @@
+requirement_linux_scheduler_latency
+<- concept_software_requirement;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [ограничение задержки пробуждения задач]
+    (* <- lang_ru;; *);
+    [task wakeup latency bound]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Требование к ядру Linux: 99-процентильная задержка пробуждения задачи не должна
+     превышать 50 мкс на 16-ядерной системе с 64 активными потоками.]
+    (* <- lang_ru;; *);
+    [A requirement to the Linux kernel: the 99th percentile task wakeup latency must not
+     exceed 50 microseconds on a 16-core system with 64 active threads.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirements_gathering_linux_scheduler_latency;
+=> nrel_requirement_design: design_linux_scheduler;;
+
+requirement_postgresql_vacuum_efficiency
+<- concept_software_requirement;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сокращение длительности обслуживания больших таблиц]
+    (* <- lang_ru;; *);
+    [reduction of large table maintenance duration]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Требование к PostgreSQL: обслуживание таблицы объёмом два миллиарда строк должно
+     завершаться в пределах одного окна обслуживания без блокировки пользовательских
+     запросов.]
+    (* <- lang_ru;; *);
+    [A requirement to PostgreSQL: the maintenance of a table of two billion rows must
+     complete within a single maintenance window without blocking user queries.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirements_gathering_postgresql_vacuum_efficiency;
+=> nrel_requirement_design: design_postgresql_vacuum;;
+
+requirement_skyway_seat_locking
+<- concept_software_requirement;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [гарантированная блокировка места при оплате]
+    (* <- lang_ru;; *);
+    [guaranteed seat locking during payment]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Требование: место, выбранное пассажиром, не должно быть доступно другим пользователям
+     в течение всего цикла бронирования и оплаты, а его удержание должно истекать по
+     установленному правилу.]
+    (* <- lang_ru;; *);
+    [A requirement: a seat chosen by a passenger must not be available to other users during
+     the entire booking and payment cycle, and its hold must expire according to an
+     established rule.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirements_gathering_skyway_seat_locking;
+=> nrel_requirement_design: design_skyway_seat_lock;;
+
+requirement_skyway_price_consistency
+<- concept_software_requirement;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [единая стоимость билета на всех этапах]
+    (* <- lang_ru;; *);
+    [uniform fare across all booking steps]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Требование: стоимость, отображённая при поиске, обязана совпадать со стоимостью в
+     форме оплаты без скрытых доплат и без изменения тарифа между этапами оформления.]
+    (* <- lang_ru;; *);
+    [A requirement: the fare shown during the search must match the fare in the payment form
+     without hidden surcharges and without a change of the tariff between the booking steps.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirements_gathering_skyway_price_consistency;
+=> nrel_requirement_design: design_skyway_pricing;;

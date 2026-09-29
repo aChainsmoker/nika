@@ -1,0 +1,67 @@
+deployment_linux_kernel_6_8
+<- concept_software_deployment;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [развёртывание ядра Linux 6.8]
+    (* <- lang_ru;; *);
+    [Linux kernel 6.8 deployment]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Установка подписанного образа ядра на серверы и рабочие станции целевой
+     инфраструктуры с сохранением параметров загрузки и совместимых модулей.]
+    (* <- lang_ru;; *);
+    [Installation of the signed kernel image onto the servers and workstations of the target
+     infrastructure while preserving the boot parameters and compatible modules.]
+    (* <- lang_en;; *);
+=> nrel_deployment_operation: operation_linux_kernel_6_8;;
+
+deployment_postgresql_16_2_cluster
+<- concept_software_deployment;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [развёртывание кластера PostgreSQL 16.2]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16.2 cluster deployment]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Развёртывание основного и резервного узлов кластера с настройкой логической
+     репликации и регулярного резервного копирования.]
+    (* <- lang_ru;; *);
+    [Deployment of the primary and standby cluster nodes with the configuration of logical
+     replication and regular backup.]
+    (* <- lang_en;; *);
+=> nrel_deployment_operation: operation_postgresql_16_2_production;;
+
+deployment_git_hosting
+<- concept_software_deployment;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [развёртывание Git 2.45 на сервере размещения]
+    (* <- lang_ru;; *);
+    [Git 2.45 hosting server deployment]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Установка системы контроля версий на сервер размещения репозиториев с настройкой
+     учётных записей, прав доступа и параметров хранения.]
+    (* <- lang_ru;; *);
+    [Installation of the version control system onto the repository hosting server with the
+     configuration of accounts, access rights and storage parameters.]
+    (* <- lang_en;; *);
+=> nrel_deployment_operation: operation_git_hosting;;
+
+deployment_skyway_booking_prod_eu
+<- concept_software_deployment;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [промышленное развёртывание «Скайвей» в европейском контуре]
+    (* <- lang_ru;; *);
+    [Skyway production deployment in the European region]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Развёртывание сервиса бронирования в промышленной среде с подключением к платёжному
+     шлюзу и к системе бронирования авиакомпании.]
+    (* <- lang_ru;; *);
+    [Deployment of the booking service into the production environment with integration into
+     the payment gateway and the airline reservation system.]
+    (* <- lang_en;; *);
+=> nrel_deployment_operation: operation_skyway_booking_support;;

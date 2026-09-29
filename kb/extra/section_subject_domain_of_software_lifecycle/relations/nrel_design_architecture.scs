@@ -1,0 +1,55 @@
+nrel_design_architecture
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [архитектурное проектное решение*]
+    (* <- lang_ru;; *);
+    [architectural design decision*]
+    (* <- lang_en;; *);
+=> nrel_first_domain: concept_software_design;
+=> nrel_second_domain: concept_software_architecture;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software_design;
+            concept_software_architecture
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (архитектурное проектное решение*)]
+            (* <- lang_ru;; *);
+            [Def. (architectural design decision*)]
+            (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Архитектурное проектное решение* - бинарное ориентированное отношение,
+                     связывающее проектное решение с фиксирующей его архитектурой системы,
+                     то есть составом крупных компонентов и их взаимосвязями.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Architectural design decision* is a binary oriented relation linking a
+                     design decision to the system architecture that fixes it, that is, to
+                     the composition of the major components and their interrelations.]
+                    (* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+                concept_software_design;
+                concept_software_architecture
+            };;
+    *);;

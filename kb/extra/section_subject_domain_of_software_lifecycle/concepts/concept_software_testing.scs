@@ -1,0 +1,18 @@
+concept_software_testing
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [тестирование программного обеспечения]
+    (* <- lang_ru;; *);
+    [software testing]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Процесс проверки соответствия собранной версии требованиям посредством выполнения
+     функциональных, нагрузочных и регрессионных тестов с регистрацией обнаруженных
+     расхождений и дефектов.]
+    (* <- lang_ru;; *);
+    [The process of checking the conformity of a built version to the requirements by
+     running functional, load and regression tests and by registering the discrepancies
+     and defects found.]
+    (* <- lang_en;; *);;

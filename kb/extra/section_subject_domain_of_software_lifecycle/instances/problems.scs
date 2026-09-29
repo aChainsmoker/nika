@@ -1,0 +1,81 @@
+problem_linux_scheduler_latency
+<- concept_software_problem;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [рост задержек планировщика задач]
+    (* <- lang_ru;; *);
+    [task scheduler latency growth]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [В версиях ядра Linux 6.x выявлено увеличение задержки отклика планировщика в
+     интерактивных сценариях на многоядерных системах с большим числом активных потоков.]
+    (* <- lang_ru;; *);
+    [In the Linux kernel 6.x releases, an increase in scheduler response latency has been
+     observed in interactive scenarios on multi-core systems with a large number of active
+     threads.]
+    (* <- lang_en;; *);;
+
+problem_postgresql_replication_lag
+<- concept_software_problem;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [отставание логической репликации]
+    (* <- lang_ru;; *);
+    [logical replication lag]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Резервные узлы PostgreSQL при высокой пиковой нагрузке отстают от основного узла на
+     десятки секунд, что приводит к чтению устаревших данных из реплик.]
+    (* <- lang_ru;; *);
+    [Under high peak load, PostgreSQL standby nodes lag behind the primary node by tens of
+     seconds, which leads to reading outdated data from the replicas.]
+    (* <- lang_en;; *);;
+
+problem_git_merge_scaling
+<- concept_software_problem;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [длительное выполнение слияния в крупных репозиториях]
+    (* <- lang_ru;; *);
+    [slow merges in large repositories]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Операции слияния в репозиториях с многолетней историей и большим числом файлов
+     выполняются настолько долго, что делают ежедневную работу разработчиков некомфортной.]
+    (* <- lang_ru;; *);
+    [Merge operations in repositories with a multi-year history and a large number of files
+     take so long that they make developers' daily work uncomfortable.]
+    (* <- lang_en;; *);;
+
+problem_skyway_double_booking
+<- concept_software_problem;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [двойное бронирование места]
+    (* <- lang_ru;; *);
+    [double seat booking]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [При одновременных запросах двух пассажиров система «Скайвей» допускает продажу одного
+     и того же места дважды, что приводит к отмене одной из броней и требованиям возмещения.]
+    (* <- lang_ru;; *);
+    [On simultaneous requests from two passengers, the Skyway system allows the same seat to
+     be sold twice, which leads to the cancellation of one of the bookings and to compensation
+     claims.]
+    (* <- lang_en;; *);;
+
+problem_skyway_price_mismatch
+<- concept_software_problem;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [расхождение цены билета между поиском и оплатой]
+    (* <- lang_ru;; *);
+    [fare mismatch between search and payment]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Стоимость билета, отображённая в результатах поиска, не совпадает с суммой, выставляемой
+     в форме оплаты, из-за чего часть пассажиров отменяет бронирование на этапе оплаты.]
+    (* <- lang_ru;; *);
+    [The fare shown in the search results does not match the amount charged in the payment
+     form, which causes some passengers to cancel the booking at the payment stage.]
+    (* <- lang_en;; *);;

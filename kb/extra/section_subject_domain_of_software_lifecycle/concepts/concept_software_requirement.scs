@@ -1,0 +1,18 @@
+concept_software_requirement
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [требование к программному обеспечению]
+    (* <- lang_ru;; *);
+    [software requirement]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Проверяемое условие, которому должна удовлетворять система или отдельная её функция;
+     требование фиксируется как основание для проектирования, проверяется при тестировании
+     и служит критерием приёмки версии.]
+    (* <- lang_ru;; *);
+    [A verifiable condition that a system or a specific function must satisfy; a requirement
+     is recorded as a basis for design, is checked during testing and serves as an
+     acceptance criterion for a version.]
+    (* <- lang_en;; *);;

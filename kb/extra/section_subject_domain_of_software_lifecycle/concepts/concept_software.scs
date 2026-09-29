@@ -1,0 +1,17 @@
+concept_software
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [программное обеспечение]
+    (* <- lang_ru;; *);
+    [software]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Совокупность программ, данных и правил их обработки, предназначенная для решения
+     задач пользователя; именно она является объектом, жизненный цикл которого
+     рассматривается в настоящей предметной области.]
+    (* <- lang_ru;; *);
+    [A set of programs, data and the rules for processing them, designed to solve user
+     tasks; it is the object whose life cycle is studied in this subject domain.]
+    (* <- lang_en;; *);;

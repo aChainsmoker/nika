@@ -1,0 +1,97 @@
+
+section_subject_domain_of_software_life_cycle
+=> nrel_main_idtf:
+    [Раздел. Предметная область жизненного цикла программного обеспечения]
+    (* <- lang_ru;; *);
+    [Section. Subject domain of software life cycle]
+    (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_software_life_cycle = [*
+    subject_domain_of_software_life_cycle
+    <- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область жизненного цикла программного обеспечения]
+        (* <- lang_ru;; *);
+        [Subject domain of software life cycle]
+        (* <- lang_en;; *);
+    <- subject_domain;
+
+    -> rrel_maximum_studied_object_class:
+        concept_software_life_cycle;
+
+    -> rrel_not_maximum_studied_object_class:
+        concept_software;
+        concept_software_problem;
+        concept_stakeholder;
+        concept_software_requirement;
+        concept_software_design;
+        concept_software_architecture;
+        concept_software_implementation;
+        concept_software_build;
+        concept_software_testing;
+        concept_software_release;
+        concept_software_deployment;
+        concept_software_operation;
+        concept_software_maintenance;
+        concept_software_quality;
+        concept_software_planning;
+        concept_requirements_gathering;
+
+    -> rrel_explored_relation:
+        nrel_life_cycle_software;
+        nrel_life_cycle_stage;
+        nrel_software_problem;
+        nrel_software_stakeholder;
+        nrel_software_requirement;
+        nrel_requirement_design;
+        nrel_design_architecture;
+        nrel_architecture_implementation;
+        nrel_implementation_build;
+        nrel_build_testing;
+        nrel_testing_release;
+        nrel_release_deployment;
+        nrel_deployment_operation;
+        nrel_operation_maintenance;
+        nrel_software_planning;
+        nrel_requirements_gathering;
+        nrel_software_quality;;
+*];;
+
+section_subject_domain_of_software_life_cycle
+-> rrel_key_sc_element:
+    subject_domain_of_software_life_cycle;
+    concept_software_life_cycle;
+    concept_software;
+    concept_software_problem;
+    concept_stakeholder;
+    concept_software_requirement;
+    concept_software_design;
+    concept_software_architecture;
+    concept_software_implementation;
+    concept_software_build;
+    concept_software_testing;
+    concept_software_release;
+    concept_software_deployment;
+    concept_software_operation;
+    concept_software_maintenance;
+    concept_software_quality;
+    concept_software_planning;
+    concept_requirements_gathering;
+    nrel_life_cycle_software;
+    nrel_life_cycle_stage;
+    nrel_software_problem;
+    nrel_software_stakeholder;
+    nrel_software_requirement;
+    nrel_requirement_design;
+    nrel_design_architecture;
+    nrel_architecture_implementation;
+    nrel_implementation_build;
+    nrel_build_testing;
+    nrel_testing_release;
+    nrel_release_deployment;
+    nrel_deployment_operation;
+    nrel_operation_maintenance;
+    nrel_software_planning;
+    nrel_requirements_gathering;
+    nrel_software_quality;;

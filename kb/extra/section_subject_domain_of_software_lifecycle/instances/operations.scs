@@ -1,0 +1,67 @@
+operation_linux_kernel_6_8
+<- concept_software_operation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [эксплуатация ядра Linux 6.8]
+    (* <- lang_ru;; *);
+    [Linux kernel 6.8 operation]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Ежедневная работа узлов на базе развёрнутого ядра: контроль нагрузки, обработка сбоев
+     и плановое обновление конфигурации.]
+    (* <- lang_ru;; *);
+    [Daily operation of the nodes based on the deployed kernel: load monitoring, failure
+     handling and scheduled configuration updates.]
+    (* <- lang_en;; *);
+=> nrel_operation_maintenance: maintenance_linux_kernel_6_8_lts;;
+
+operation_postgresql_16_2_production
+<- concept_software_operation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [эксплуатация PostgreSQL 16.2 в промышленной среде]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16.2 production operation]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Обслуживание клиентских баз данных: контроль отставания репликации, плановое
+     обслуживание и обработка запросов пользователей.]
+    (* <- lang_ru;; *);
+    [Maintenance of the client databases: replication lag monitoring, scheduled maintenance
+     and handling of user requests.]
+    (* <- lang_en;; *);
+=> nrel_operation_maintenance: maintenance_postgresql_16_branch;;
+
+operation_git_hosting
+<- concept_software_operation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [эксплуатация сервера Git 2.45]
+    (* <- lang_ru;; *);
+    [Git 2.45 server operation]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Сопровождение сервера размещения репозиториев: администрирование доступа, регулярное
+     резервное копирование и обработка обращений пользователей.]
+    (* <- lang_ru;; *);
+    [Maintenance of the repository hosting server: access administration, regular backup and
+     handling of user inquiries.]
+    (* <- lang_en;; *);
+=> nrel_operation_maintenance: maintenance_git_2_45_x;;
+
+operation_skyway_booking_support
+<- concept_software_operation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [эксплуатация и поддержка системы бронирования «Скайвей»]
+    (* <- lang_ru;; *);
+    [operation and support of the Skyway booking system]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Круглосуточная поддержка пользователей бронирования, обработка отказов оплаты и
+     разбор инцидентов, связанных с бронированием мест.]
+    (* <- lang_ru;; *);
+    [Round-the-clock support of the booking users, handling of payment failures and analysis
+     of incidents related to seat booking.]
+    (* <- lang_en;; *);
+=> nrel_operation_maintenance: maintenance_skyway_booking_1_0_1;;

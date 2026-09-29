@@ -1,0 +1,50 @@
+implementation_linux_scheduler
+<- concept_software_implementation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [реализация планировщика в исходном коде ядра Linux]
+    (* <- lang_ru;; *);
+    [implementation of the scheduler in the Linux kernel source code]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Комплект модулей исходного кода ядра Linux, реализующих выбранную модель планирования
+     и обработку очередей готовности.]
+    (* <- lang_ru;; *);
+    [A set of Linux kernel source code modules implementing the chosen scheduling model and
+     the handling of run queues.]
+    (* <- lang_en;; *);
+=> nrel_implementation_build: build_linux_kernel_6_8;;
+
+implementation_postgresql_vacuum
+<- concept_software_implementation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [реализация механизма обслуживания в исходном коде PostgreSQL]
+    (* <- lang_ru;; *);
+    [implementation of the maintenance mechanism in the PostgreSQL source code]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Комплект модулей исходного кода PostgreSQL, реализующих обслуживание таблиц и
+     индексов по выбранной модели и взаимодействующих с менеджером блокировок.]
+    (* <- lang_ru;; *);
+    [A set of PostgreSQL source code modules that implement the maintenance of tables and
+     indexes according to the chosen model and interact with the lock manager.]
+    (* <- lang_en;; *);
+=> nrel_implementation_build: build_postgresql_16_2;;
+
+implementation_skyway_seat_lock
+<- concept_software_implementation;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [реализация блокировки мест в сервисе бронирования]
+    (* <- lang_ru;; *);
+    [implementation of seat locking in the booking service]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Комплект модулей сервиса бронирования, реализующий удержание места и атомарное
+     подтверждение бронирования, а также расчёт и фиксацию стоимости заказа.]
+    (* <- lang_ru;; *);
+    [A set of booking service modules that implement the seat hold and the atomic booking
+     confirmation, as well as the calculation and fixation of the order amount.]
+    (* <- lang_en;; *);
+=> nrel_implementation_build: build_skyway_booking_1_0;;

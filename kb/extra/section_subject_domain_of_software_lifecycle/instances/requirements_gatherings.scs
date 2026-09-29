@@ -1,0 +1,75 @@
+requirements_gathering_linux_scheduler_latency
+<- concept_requirements_gathering;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сбор требований к задержке пробуждения задач]
+    (* <- lang_ru;; *);
+    [elicitation of the task wakeup latency requirement]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Сеанс сбора требований, в котором инженеры по производительности и разработчики
+     планировщика согласовали измеримый предел задержки и условия его проверки на
+     многопроцессорной системе.]
+    (* <- lang_ru;; *);
+    [A requirements elicitation session in which performance engineers and scheduler
+     developers agreed on a measurable latency bound and on the conditions of its checking
+     on a multiprocessor system.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirement_linux_scheduler_latency;;
+
+requirements_gathering_postgresql_vacuum_efficiency
+<- concept_requirements_gathering;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сбор требований к эффективности обслуживания таблиц]
+    (* <- lang_ru;; *);
+    [elicitation of the table maintenance efficiency requirement]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Сбор требований от эксплуатационной службы, зафиксировавший допустимую длительность
+     обслуживания больших таблиц и запрет на блокировку пользовательских запросов во время
+     его выполнения.]
+    (* <- lang_ru;; *);
+    [Requirements elicitation from the operations service that recorded the acceptable
+     duration of maintaining large tables and the prohibition of blocking user queries while
+     it is running.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirement_postgresql_vacuum_efficiency;;
+
+requirements_gathering_skyway_seat_locking
+<- concept_requirements_gathering;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сбор требований к блокировке места при оплате]
+    (* <- lang_ru;; *);
+    [elicitation of the seat locking on payment requirement]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Сбор требований, проведённый с пассажирами и службой поддержки, по итогам которого
+     согласованы правила удержания места, длительность резерва и порядок его освобождения
+     при отказе от оплаты.]
+    (* <- lang_ru;; *);
+    [Requirements elicitation conducted with passengers and the support service, as a result
+     of which the rules of holding a seat, the reservation duration and the order of its
+     release upon payment refusal were agreed.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirement_skyway_seat_locking;;
+
+requirements_gathering_skyway_price_consistency
+<- concept_requirements_gathering;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сбор требований к единой стоимости билета]
+    (* <- lang_ru;; *);
+    [elicitation of the uniform fare requirement]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Сбор требований, выявивший расхождение между стоимостью, отображаемой при поиске, и
+     стоимостью в форме оплаты, и зафиксировавший запрет на скрытые доплаты и на смену
+     тарифа по ходу оформления заказа.]
+    (* <- lang_ru;; *);
+    [Requirements elicitation that revealed a discrepancy between the fare shown during the
+     search and the fare in the payment form, and recorded a ban on hidden surcharges and on
+     changing the tariff while the order is being placed.]
+    (* <- lang_en;; *);
+=> nrel_requirements_gathering: requirement_skyway_price_consistency;;

@@ -1,0 +1,79 @@
+quality_reliability
+<- concept_software_quality;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [надёжность]
+    (* <- lang_ru;; *);
+    [reliability]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Способность программного обеспечения выполнять требуемые функции без отказов и
+     повреждения данных в течение заданного времени.]
+    (* <- lang_ru;; *);
+    [The ability of the software to perform the required functions without failures and data
+     corruption for a specified period of time.]
+    (* <- lang_en;; *);;
+
+quality_performance
+<- concept_software_quality;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [производительность]
+    (* <- lang_ru;; *);
+    [performance]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Способность программного обеспечения обеспечивать требуемое время отклика и
+     пропускную способность при заданной нагрузке.]
+    (* <- lang_ru;; *);
+    [The ability of the software to provide the required response time and throughput under
+     the specified load.]
+    (* <- lang_en;; *);;
+
+quality_security
+<- concept_software_quality;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [защищённость]
+    (* <- lang_ru;; *);
+    [security]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Способность программного обеспечения противостоять несанкционированному доступу и
+     обеспечивать конфиденциальность и целостность обрабатываемых данных.]
+    (* <- lang_ru;; *);
+    [The ability of the software to resist unauthorized access and to ensure the
+     confidentiality and integrity of the processed data.]
+    (* <- lang_en;; *);;
+
+quality_maintainability
+<- concept_software_quality;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сопровождаемость]
+    (* <- lang_ru;; *);
+    [maintainability]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Способность программного обеспечения к внесению изменений без нарушения его
+     функциональности, в том числе с заданной трудоёмкостью исправлений.]
+    (* <- lang_ru;; *);
+    [The ability of the software to be modified without breaking its functionality,
+     including with a specified effort for the fixes.]
+    (* <- lang_en;; *);;
+
+quality_availability
+<- concept_software_quality;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [доступность]
+    (* <- lang_ru;; *);
+    [availability]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Способность программного обеспечения предоставлять требуемую функциональность
+     заданной долей пользователей в течение согласованного времени.]
+    (* <- lang_ru;; *);
+    [The ability of the software to provide the required functionality to a specified share
+     of users during the agreed time.]
+    (* <- lang_en;; *);;

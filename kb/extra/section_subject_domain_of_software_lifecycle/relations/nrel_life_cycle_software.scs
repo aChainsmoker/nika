@@ -1,0 +1,55 @@
+nrel_life_cycle_software
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [программное обеспечение в жизненном цикле*]
+    (* <- lang_ru;; *);
+    [software in life cycle*]
+    (* <- lang_en;; *);
+=> nrel_first_domain: concept_software_life_cycle;
+=> nrel_second_domain: concept_software;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software_life_cycle;
+            concept_software
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (программное обеспечение в жизненном цикле*)]
+            (* <- lang_ru;; *);
+            [Def. (software in life cycle*)]
+            (* <- lang_en;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [Программное обеспечение в жизненном цикле* - бинарное ориентированное
+                     отношение, связывающее жизненный цикл с тем программным обеспечением,
+                     ради которого он рассматривается и которое проходит все его стадии.]
+                    (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> rrel_example:
+                    [Software in life cycle* is a binary oriented relation linking a life
+                     cycle to the software for whose sake it is considered and which passes
+                     through all of its stages.]
+                    (* <- lang_en;; *);;
+            *);;
+        <= nrel_using_constants:
+            {
+                concept_software_life_cycle;
+                concept_software
+            };;
+    *);;

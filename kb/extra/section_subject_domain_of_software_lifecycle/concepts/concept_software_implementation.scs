@@ -1,0 +1,16 @@
+concept_software_implementation
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [реализация программного обеспечения]
+    (* <- lang_ru;; *);
+    [software implementation]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Процесс написания и интеграции программного кода, воплощающего проектные решения
+     в виде исходного кода системы, пригодного для последующей сборки.]
+    (* <- lang_ru;; *);
+    [The process of writing and integrating program code that embodies the design
+     decisions as the source code of the system, suitable for subsequent building.]
+    (* <- lang_en;; *);;

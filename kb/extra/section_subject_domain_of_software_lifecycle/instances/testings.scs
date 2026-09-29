@@ -1,0 +1,68 @@
+testing_linux_kernel_selftests
+<- concept_software_testing;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [самотестирование ядра Linux 6.8]
+    (* <- lang_ru;; *);
+    [Linux kernel 6.8 self-testing]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Комплекс функциональных и нагрузочных тестов, проверяющих планировщик, управление
+     памятью и драйверы собранного ядра.]
+    (* <- lang_ru;; *);
+    [A set of functional and load tests checking the scheduler, memory management and the
+     drivers of the built kernel.]
+    (* <- lang_en;; *);
+=> nrel_testing_release: release_linux_kernel_6_8;;
+
+testing_postgresql_regression
+<- concept_software_testing;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [регрессионное тестирование PostgreSQL 16.2]
+    (* <- lang_ru;; *);
+    [PostgreSQL 16.2 regression testing]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Запуск штатного набора регрессионных тестов и отдельная проверка времени обслуживания
+     на данных объёмом два миллиарда строк.]
+    (* <- lang_ru;; *);
+    [Running the standard regression test suite and a separate check of the maintenance time
+     on data of two billion rows.]
+    (* <- lang_en;; *);
+=> nrel_testing_release: release_postgresql_16_2;;
+
+testing_git_ci
+<- concept_software_testing;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [непрерывное интеграционное тестирование Git 2.45]
+    (* <- lang_ru;; *);
+    [Git 2.45 continuous integration testing]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Прогон тестового набора на различных платформах в ходе сборки с дополнительной
+     проверкой времени выполнения операций слияния в крупных репозиториях.]
+    (* <- lang_ru;; *);
+    [Running the test suite on various platforms during the build with an additional check of
+     the execution time of merge operations in large repositories.]
+    (* <- lang_en;; *);
+=> nrel_testing_release: release_git_2_45;;
+
+testing_skyway_booking_e2e
+<- concept_software_testing;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сквозное тестирование бронирования «Скайвей» 1.0]
+    (* <- lang_ru;; *);
+    [Skyway 1.0 end-to-end booking testing]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Проверка полного сценария поиска, выбора тарифа, удержания и оплаты места, включая
+     контроль отсутствия двойных броней под нагрузкой и совпадения стоимости на всех этапах.]
+    (* <- lang_ru;; *);
+    [Verification of the full search, fare selection, seat hold and payment scenario,
+     including the control of the absence of double bookings under load and of the fare
+     consistency at all stages.]
+    (* <- lang_en;; *);
+=> nrel_testing_release: release_skyway_booking_1_0;;

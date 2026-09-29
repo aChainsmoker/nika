@@ -1,0 +1,18 @@
+concept_software_maintenance
+<- sc_node_class;
+<- class;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [сопровождение программного обеспечения]
+    (* <- lang_ru;; *);
+    [software maintenance]
+    (* <- lang_en;; *);
+=> nrel_definition:
+    [Деятельность по внесению изменений в эксплуатируемую версию после её поставки:
+     исправление обнаруженных проблем, адаптация к изменившимся условиям, а также частичная
+     переработка устаревшей версии до вывода её из эксплуатации.]
+    (* <- lang_ru;; *);
+    [The activity of making changes to a deployed version after its delivery: fixing the
+     detected problems, adapting to changed conditions, and partially re-engineering an
+     outdated version until it is retired.]
+    (* <- lang_en;; *);;
