@@ -52,21 +52,6 @@ services:
       - "KB_PATH=../repo.path"
     command:
       - "serve"
-    depends_on:
-      - witai-shim
-
-  witai-shim:
-    build:
-      context: ./problem-solver/witai-shim
-      dockerfile: ./Dockerfile
-    container_name: witai-shim
-    restart: unless-stopped
-    environment:
-      - WIT_TOKEN=D7LG4XVP2P3PJLYDGYWHJ2WMM6NH2YIO
-      - FORCED_INTENT=about_entity
-    networks:
-      - nika
-
   nika-ui:
     image: ostis/nika-ui:0.1.0
     build:
