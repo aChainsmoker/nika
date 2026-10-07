@@ -74,7 +74,7 @@
         <node type="node/const/perm/group" idtf="concept_message_about_entity" shapeColor="0" id="1583986771984" parent="1583987003424" left="0" top="0" right="181" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="-28.1788" y="1000" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="software" shapeColor="0" id="1583986772816" parent="1583987003424" left="0" top="0" right="115" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="143.821" y="931" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_software" shapeColor="0" id="1583986772816" parent="1583987003424" left="0" top="0" right="115" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="143.821" y="931" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="1583986766576" parent="1583987003424" left="0" top="0" right="66" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="54.8212" y="894" haveBus="false" idtf_pos="3">
