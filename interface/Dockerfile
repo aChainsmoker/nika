@@ -1,15 +1,15 @@
-#nodejs stage to build frontent
-FROM node:22-alpine AS web-buildenv
+#nodejs stage to build frontent 
+FROM node:16-alpine AS web-buildenv
 
 WORKDIR /nika-ui 
 #Install build-time dependencies
 COPY package.json package-lock.json ./
-RUN npm install
-#Build the interface
+RUN yarn
+#Build the interface 
 COPY . .
-RUN npm run build
+RUN yarn build 
 
-FROM node:22-alpine as runtime
+FROM node:16-alpine as runtime 
 USER root
 
 WORKDIR /nika-ui
