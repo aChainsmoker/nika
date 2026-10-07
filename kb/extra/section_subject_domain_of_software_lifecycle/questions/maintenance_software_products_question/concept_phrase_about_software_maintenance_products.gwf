@@ -16,13 +16,13 @@
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="1852439806240" parent="1852437955968" left="0" top="0" right="148" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="693" y="422" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_entity" shapeColor="0" id="1852439806864" parent="1852437955968" left="0" top="0" right="75" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="593" y="472" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_entity1" shapeColor="0" id="1852439806864" parent="1852437955968" left="0" top="0" right="75" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="593" y="472" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="1852439809360" parent="1852437955968" left="0" top="0" right="108" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="593" y="422" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="1852439806032" parent="1852437955968" left="0" top="0" right="101" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="493" y="472" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_message1" shapeColor="0" id="1852439806032" parent="1852437955968" left="0" top="0" right="101" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="493" y="472" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="1852436135808" parent="1852437955968" left="0" top="0" right="175" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="493" y="422" haveBus="false" idtf_pos="0">
@@ -75,13 +75,13 @@
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="1852439805200" parent="1852437957888" left="0" top="0" right="148" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="701" y="603" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_entity" shapeColor="0" id="1852439804576" parent="1852437957888" left="0" top="0" right="75" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="601" y="653" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_entity2" shapeColor="0" id="1852439804576" parent="1852437957888" left="0" top="0" right="75" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="601" y="653" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="1852439803536" parent="1852437957888" left="0" top="0" right="108" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="601" y="603" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="1852439803120" parent="1852437957888" left="0" top="0" right="101" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="501" y="653" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_message2" shapeColor="0" id="1852439803120" parent="1852437957888" left="0" top="0" right="101" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="501" y="653" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="1852439809776" parent="1852437957888" left="0" top="0" right="175" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="501" y="603" haveBus="false" idtf_pos="0">
@@ -134,13 +134,13 @@
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="1852440878608" parent="1852437957696" left="0" top="0" right="148" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="702" y="781" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_entity" shapeColor="0" id="1852440885680" parent="1852437957696" left="0" top="0" right="75" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="602" y="831" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_entity3" shapeColor="0" id="1852440885680" parent="1852437957696" left="0" top="0" right="75" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="602" y="831" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="1852440886304" parent="1852437957696" left="0" top="0" right="108" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="602" y="781" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="1852440882144" parent="1852437957696" left="0" top="0" right="101" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="502" y="831" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_message3" shapeColor="0" id="1852440882144" parent="1852437957696" left="0" top="0" right="101" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="502" y="831" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="1852440880688" parent="1852437957696" left="0" top="0" right="175" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="502" y="781" haveBus="false" idtf_pos="0">
