@@ -65,6 +65,7 @@ section_subject_domain_of_software_life_cycle = [*
         nrel_software_deployment;
         nrel_software_operation;
         nrel_software_maintenance;
+        nrel_maintenance_software_product;
         nrel_next_life_cycle_stage;
         nrel_software_quality;;
 *];;
@@ -115,5 +116,6 @@ section_subject_domain_of_software_life_cycle
     nrel_software_deployment;
     nrel_software_operation;
     nrel_software_maintenance;
+    nrel_maintenance_software_product;
     nrel_next_life_cycle_stage;
     nrel_software_quality;;

@@ -1,0 +1,15 @@
+nrel_maintenance_software_product
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+    [программный продукт на сопровождении*] (* <- lang_ru;; *);
+    [software product under maintenance*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_software_maintenance;
+=> nrel_second_domain: concept_software;;
+
+concept_software_maintenance => nrel_maintenance_software_product: software_linux_kernel;;
+concept_software_maintenance => nrel_maintenance_software_product: software_postgresql;;
+concept_software_maintenance => nrel_maintenance_software_product: software_git;;
+concept_software_maintenance => nrel_maintenance_software_product: software_skyway_booking;;

@@ -7,5 +7,5 @@ nrel_software_build
     [сборка программного обеспечения*] (* <- lang_ru;; *);
     [software build*] (* <- lang_en;; *);
 => nrel_first_domain: concept_software;
-=> nrel_second_domain: concept_software_build;
+=> nrel_second_domain: concept_software_build;;
 

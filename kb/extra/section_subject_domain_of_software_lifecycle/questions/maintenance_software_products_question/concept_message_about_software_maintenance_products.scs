@@ -1,0 +1,30 @@
+concept_message_about_software_maintenance_products
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о программных продуктах на сопровождении]
+        (* <- lang_ru;; *);
+    [message about software products under maintenance]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о программных продуктах на сопровождении)]
+            (* <- lang_ru;; *);
+        [Def. (message about software products under maintenance)]
+            (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о программных продуктах на сопровождении - атомарное сообщение,
+             содержащее вопрос о программных продуктах, связанных с сопровождением.]
+                (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            nrel_maintenance_software_product
+        };;
+    *);;

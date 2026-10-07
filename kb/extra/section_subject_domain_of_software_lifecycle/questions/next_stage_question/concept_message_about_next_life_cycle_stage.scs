@@ -1,0 +1,30 @@
+concept_message_about_next_life_cycle_stage
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о следующей стадии жизненного цикла]
+        (* <- lang_ru;; *);
+    [message about the next life cycle stage]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о следующей стадии жизненного цикла)]
+            (* <- lang_ru;; *);
+        [Def. (message about the next life cycle stage)]
+            (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о следующей стадии жизненного цикла - атомарное сообщение,
+             содержащее вопрос о стадии, которая следует за указанной стадией.]
+                (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            nrel_next_life_cycle_stage
+        };;
+    *);;

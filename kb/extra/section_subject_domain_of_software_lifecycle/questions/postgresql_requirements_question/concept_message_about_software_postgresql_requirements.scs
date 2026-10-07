@@ -1,0 +1,30 @@
+concept_message_about_software_postgresql_requirements
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о требованиях к базе данных PostgreSQL]
+        (* <- lang_ru;; *);
+    [message about requirements for the PostgreSQL database]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о требованиях к базе данных PostgreSQL)]
+            (* <- lang_ru;; *);
+        [Def. (message about requirements for the PostgreSQL database)]
+            (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о требованиях к базе данных PostgreSQL - атомарное сообщение,
+             содержащее вопрос о требованиях, предъявляемых к PostgreSQL.]
+                (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            nrel_software_requirement
+        };;
+    *);;

@@ -43,16 +43,16 @@ nrel_next_life_cycle_stage
             concept_software_operation;
             concept_software_maintenance
         };;
-    *);
+    *);;
 
-concept_software_planning => nrel_next_life_cycle_stage: concept_requirements_gathering;
-concept_requirements_gathering => nrel_next_life_cycle_stage: concept_software_requirement;
-concept_software_requirement => nrel_next_life_cycle_stage: concept_software_design;
-concept_software_design => nrel_next_life_cycle_stage: concept_software_architecture;
-concept_software_architecture => nrel_next_life_cycle_stage: concept_software_implementation;
-concept_software_implementation => nrel_next_life_cycle_stage: concept_software_build;
-concept_software_build => nrel_next_life_cycle_stage: concept_software_testing;
-concept_software_testing => nrel_next_life_cycle_stage: concept_software_release;
-concept_software_release => nrel_next_life_cycle_stage: concept_software_deployment;
-concept_software_deployment => nrel_next_life_cycle_stage: concept_software_operation;
+concept_software_planning => nrel_next_life_cycle_stage: concept_requirements_gathering;;
+concept_requirements_gathering => nrel_next_life_cycle_stage: concept_software_requirement;;
+concept_software_requirement => nrel_next_life_cycle_stage: concept_software_design;;
+concept_software_design => nrel_next_life_cycle_stage: concept_software_architecture;;
+concept_software_architecture => nrel_next_life_cycle_stage: concept_software_implementation;;
+concept_software_implementation => nrel_next_life_cycle_stage: concept_software_build;;
+concept_software_build => nrel_next_life_cycle_stage: concept_software_testing;;
+concept_software_testing => nrel_next_life_cycle_stage: concept_software_release;;
+concept_software_release => nrel_next_life_cycle_stage: concept_software_deployment;;
+concept_software_deployment => nrel_next_life_cycle_stage: concept_software_operation;;
 concept_software_operation => nrel_next_life_cycle_stage: concept_software_maintenance;;

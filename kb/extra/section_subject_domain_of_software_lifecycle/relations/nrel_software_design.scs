@@ -7,5 +7,5 @@ nrel_software_design
     [проектирование программного обеспечения*] (* <- lang_ru;; *);
     [software design*] (* <- lang_en;; *);
 => nrel_first_domain: concept_software;
-=> nrel_second_domain: concept_software_design;
+=> nrel_second_domain: concept_software_design;;
 
