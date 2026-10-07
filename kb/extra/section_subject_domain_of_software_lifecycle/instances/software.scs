@@ -17,6 +17,16 @@ software_linux_kernel
 => nrel_software_stakeholder: stakeholder_linux_foundation;
 => nrel_software_requirement: requirement_linux_scheduler_latency;
 => nrel_software_planning: planning_linux_scheduler_subsystem;
+=> nrel_software_requirements_gathering: requirements_gathering_linux_scheduler_latency;
+=> nrel_software_design: design_linux_scheduler;
+=> nrel_software_architecture: architecture_linux_scheduler;
+=> nrel_software_implementation: implementation_linux_scheduler;
+=> nrel_software_build: build_linux_kernel_6_8;
+=> nrel_software_testing: testing_linux_kernel_selftests;
+=> nrel_software_release: release_linux_kernel_6_8;
+=> nrel_software_deployment: deployment_linux_kernel_6_8;
+=> nrel_software_operation: operation_linux_kernel_6_8;
+=> nrel_software_maintenance: maintenance_linux_kernel_6_8_lts;
 => nrel_software_quality:
     quality_reliability;
     quality_performance;
@@ -41,6 +51,16 @@ software_postgresql
 => nrel_software_stakeholder: stakeholder_postgresql_global_development_group;
 => nrel_software_requirement: requirement_postgresql_vacuum_efficiency;
 => nrel_software_planning: planning_postgresql_vacuum_release;
+=> nrel_software_requirements_gathering: requirements_gathering_postgresql_vacuum_efficiency;
+=> nrel_software_design: design_postgresql_vacuum;
+=> nrel_software_architecture: architecture_postgresql_vacuum;
+=> nrel_software_implementation: implementation_postgresql_vacuum;
+=> nrel_software_build: build_postgresql_16_2;
+=> nrel_software_testing: testing_postgresql_regression;
+=> nrel_software_release: release_postgresql_16_2;
+=> nrel_software_deployment: deployment_postgresql_16_2_cluster;
+=> nrel_software_operation: operation_postgresql_16_2_production;
+=> nrel_software_maintenance: maintenance_postgresql_16_branch;
 => nrel_software_quality:
     quality_reliability;
     quality_security;
@@ -64,6 +84,12 @@ software_git
 => nrel_software_problem: problem_git_merge_scaling;
 => nrel_software_stakeholder: stakeholder_git_maintainers;
 => nrel_software_planning: planning_git_merge_performance;
+=> nrel_software_build: build_git_2_45;
+=> nrel_software_testing: testing_git_ci;
+=> nrel_software_release: release_git_2_45;
+=> nrel_software_deployment: deployment_git_hosting;
+=> nrel_software_operation: operation_git_hosting;
+=> nrel_software_maintenance: maintenance_git_2_45_x;
 => nrel_software_quality:
     quality_reliability;
     quality_maintainability;;
@@ -95,6 +121,20 @@ software_skyway_booking
     requirement_skyway_price_consistency;
 => nrel_software_planning:
     planning_skyway_booking_launch;
+=> nrel_software_requirements_gathering:
+    requirements_gathering_skyway_seat_locking;
+    requirements_gathering_skyway_price_consistency;
+=> nrel_software_design:
+    design_skyway_seat_lock;
+    design_skyway_pricing;
+=> nrel_software_architecture: architecture_skyway_booking_core;
+=> nrel_software_implementation: implementation_skyway_seat_lock;
+=> nrel_software_build: build_skyway_booking_1_0;
+=> nrel_software_testing: testing_skyway_booking_e2e;
+=> nrel_software_release: release_skyway_booking_1_0;
+=> nrel_software_deployment: deployment_skyway_booking_prod_eu;
+=> nrel_software_operation: operation_skyway_booking_support;
+=> nrel_software_maintenance: maintenance_skyway_booking_1_0_1;
 => nrel_software_quality:
     quality_performance;
     quality_security;

@@ -1,0 +1,58 @@
+nrel_next_life_cycle_stage
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+=> nrel_main_idtf:
+    [следующая стадия жизненного цикла*] (* <- lang_ru;; *);
+    [next life cycle stage*] (* <- lang_en;; *);
+=> nrel_first_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software_planning;
+            concept_requirements_gathering;
+            concept_software_requirement;
+            concept_software_design;
+            concept_software_architecture;
+            concept_software_implementation;
+            concept_software_build;
+            concept_software_testing;
+            concept_software_release;
+            concept_software_deployment;
+            concept_software_operation;
+            concept_software_maintenance
+        };;
+    *);
+=> nrel_second_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_software_planning;
+            concept_requirements_gathering;
+            concept_software_requirement;
+            concept_software_design;
+            concept_software_architecture;
+            concept_software_implementation;
+            concept_software_build;
+            concept_software_testing;
+            concept_software_release;
+            concept_software_deployment;
+            concept_software_operation;
+            concept_software_maintenance
+        };;
+    *);
+
+concept_software_planning => nrel_next_life_cycle_stage: concept_requirements_gathering;
+concept_requirements_gathering => nrel_next_life_cycle_stage: concept_software_requirement;
+concept_software_requirement => nrel_next_life_cycle_stage: concept_software_design;
+concept_software_design => nrel_next_life_cycle_stage: concept_software_architecture;
+concept_software_architecture => nrel_next_life_cycle_stage: concept_software_implementation;
+concept_software_implementation => nrel_next_life_cycle_stage: concept_software_build;
+concept_software_build => nrel_next_life_cycle_stage: concept_software_testing;
+concept_software_testing => nrel_next_life_cycle_stage: concept_software_release;
+concept_software_release => nrel_next_life_cycle_stage: concept_software_deployment;
+concept_software_deployment => nrel_next_life_cycle_stage: concept_software_operation;
+concept_software_operation => nrel_next_life_cycle_stage: concept_software_maintenance;;

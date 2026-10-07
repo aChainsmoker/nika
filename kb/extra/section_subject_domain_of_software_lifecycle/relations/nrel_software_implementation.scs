@@ -1,0 +1,11 @@
+nrel_software_implementation
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+    [реализация программного обеспечения*] (* <- lang_ru;; *);
+    [software implementation*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_software;
+=> nrel_second_domain: concept_software_implementation;
+

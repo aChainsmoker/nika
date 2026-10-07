@@ -16,6 +16,8 @@ nrel_life_cycle_stage
     ...
     (*
         <= nrel_combination: {
+            concept_software_planning;
+            concept_requirements_gathering;
             concept_software_requirement;
             concept_software_design;
             concept_software_architecture;
@@ -43,23 +45,26 @@ nrel_life_cycle_stage
             (*
                 -> rrel_example:
                     [Стадия жизненного цикла* - бинарное ориентированное отношение,
-                     связывающее жизненный цикл с одной из его стадий: требованием,
-                     проектированием, архитектурой, реализацией, сборкой, тестированием,
-                     выпуском, развёртыванием, эксплуатацией или сопровождением.]
+                     связывающее жизненный цикл с одной из его стадий: планированием,
+                     сбором требований, требованием, проектированием, архитектурой,
+                     реализацией, сборкой, тестированием, выпуском, развёртыванием,
+                     эксплуатацией или сопровождением.]
                     (* <- lang_ru;; *);;
             *);
             ...
             (*
                 -> rrel_example:
                     [Life cycle stage* is a binary oriented relation linking a life cycle
-                     to one of its stages: a requirement, design, architecture,
-                     implementation, build, testing, release, deployment, operation or
-                     maintenance.]
+                     to one of its stages: planning, requirements gathering, a requirement,
+                     design, architecture, implementation, build, testing, release,
+                     deployment, operation or maintenance.]
                     (* <- lang_en;; *);;
             *);;
         <= nrel_using_constants:
             {
                 concept_software_life_cycle;
+                concept_software_planning;
+                concept_requirements_gathering;
                 concept_software_requirement;
                 concept_software_design;
                 concept_software_architecture;

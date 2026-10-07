@@ -1,0 +1,11 @@
+nrel_software_requirements_gathering
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+    [сбор требований программного обеспечения*] (* <- lang_ru;; *);
+    [software requirements gathering*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_software;
+=> nrel_second_domain: concept_requirements_gathering;
+
