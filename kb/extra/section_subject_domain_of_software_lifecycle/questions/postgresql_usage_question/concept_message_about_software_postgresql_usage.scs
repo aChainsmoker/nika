@@ -1,0 +1,31 @@
+concept_message_about_software_postgresql_usage
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение об использовании PostgreSQL]
+        (* <- lang_ru;; *);
+    [message about PostgreSQL usage]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение об использовании PostgreSQL)]
+            (* <- lang_ru;; *);
+        [Def. (message about PostgreSQL usage)]
+            (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о требованиях к базе данных PostgreSQL - атомарное сообщение,
+             содержащее вопрос о том, каким образом используется PostgreSQL.]
+                (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            nrel_software_operation
+        };;
+    *);;
+
