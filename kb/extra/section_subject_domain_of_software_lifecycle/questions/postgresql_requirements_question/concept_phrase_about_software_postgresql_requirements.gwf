@@ -248,7 +248,7 @@
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/general" idtf="" shapeColor="0" id="3036454421568" parent="0" x="300" y="800" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Для ${_software_name_3} задано требование: ${_requirement_name_3}.]]></content>
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Для PostgreSQL задано требование: ${_requirement_name_3}.]]></content>
         </node>
         <node type="node/const/perm/group" idtf="lang_ru" shapeColor="0" id="3036454424064" parent="0" left="0" top="0" right="52" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="100" y="650" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>

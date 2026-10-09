@@ -248,16 +248,16 @@
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/general" idtf="" shapeColor="0" id="2072121504640" parent="0" x="300" y="800" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Методы тестирования ${_software_name_3}: ${_testing_method_name_3}.]]></content>
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Методы тестирования Git: ${_testing_method_name_3}.]]></content>
         </node>
         <node type="node/const/perm/group" idtf="lang_ru" shapeColor="0" id="2072121508176" parent="0" left="0" top="0" right="81" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="100" y="650" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/general" idtf="" shapeColor="0" id="2072121501728" parent="0" x="300" y="650" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Методы тестирования ${_software_name_2}: ${_testing_method_name_2}.]]></content>
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Методы тестирования Git: ${_testing_method_name_2}.]]></content>
         </node>
         <node type="node/const/perm/general" idtf="" shapeColor="0" id="2072121264192" parent="0" x="300" y="500" haveBus="false" idtf_pos="0">
-            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Для программного обеспечения ${_software_name_1} применяются методы тестирования: ${_testing_method_name_1}.]]></content>
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Для программного обеспечения Git применяются методы тестирования: ${_testing_method_name_1}.]]></content>
         </node>
         <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="2072121263776" parent="0" left="0" top="0" right="143" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="50" y="350" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
