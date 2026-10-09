@@ -36,7 +36,7 @@ software_postgresql
 <- concept_software;
 <- concept_wit_entity;
 => nrel_main_idtf:
-    [PostgreSQL]
+    [ПостгресКьюЭл]
     (* <- lang_ru;; *);
     [PostgreSQL]
     (* <- lang_en;; *);

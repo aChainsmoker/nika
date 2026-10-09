@@ -22,7 +22,7 @@
         <node type="node/var/perm/general" idtf="_entity2" shapeColor="0" id="3036454186896" parent="3036449367936" left="0" top="0" right="53" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="694.444" y="644.444" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_software_name_2" shapeColor="0" id="3036454187936" parent="3036449367936" left="0" top="0" right="113" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="794.444" y="644.444" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_postgresql_usage_software_name_2" shapeColor="0" id="3036454187936" parent="3036449367936" left="0" top="0" right="113" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="794.444" y="644.444" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
         <node type="node/const/perm/relation" idtf="nrel_note" shapeColor="0" id="3036454181488" parent="3036449367936" left="0" top="0" right="93" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1094.44" y="594.444" haveBus="false" idtf_pos="3">
@@ -105,7 +105,7 @@
         <node type="node/var/perm/general" idtf="_operation_note_3" shapeColor="0" id="3036453288976" parent="3036449363520" left="0" top="0" right="133" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1112.96" y="827.778" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
-        <node type="node/var/perm/general" idtf="_software_name_3" shapeColor="0" id="3036453283984" parent="3036449363520" left="0" top="0" right="113" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="812.963" y="827.778" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_postgresql_usage_software_name_3" shapeColor="0" id="3036453283984" parent="3036449363520" left="0" top="0" right="113" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="812.963" y="827.778" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
         <node type="node/const/perm/group" idtf="lang_ru" shapeColor="0" id="3036454186272" parent="3036449363520" left="0" top="0" right="52" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="862.963" y="777.778" haveBus="false" idtf_pos="3">
@@ -179,7 +179,7 @@
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="3036453284608" parent="3036449365440" left="0" top="0" right="93" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="812.711" y="307.155" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_software_name_1" shapeColor="0" id="3036453284192" parent="3036449365440" left="0" top="0" right="113" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="714.226" y="249.579" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_postgresql_usage_software_name_1" shapeColor="0" id="3036453284192" parent="3036449365440" left="0" top="0" right="113" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="714.226" y="249.579" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
         <node type="node/var/perm/general" idtf="_operation_node_1" shapeColor="0" id="3036453287936" parent="3036449365440" left="0" top="0" right="130" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="921.044" y="361.7" haveBus="false" idtf_pos="3">

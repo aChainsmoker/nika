@@ -19,7 +19,7 @@
         <node type="node/const/perm/group" idtf="lang_ru" shapeColor="0" id="2072120625696" parent="2072120731552" left="0" top="0" right="81" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="840.741" y="401.852" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_software_name_1" shapeColor="0" id="2072120626944" parent="2072120731552" left="0" top="0" right="225" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="790.741" y="451.852" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_git_testing_software_name_1" shapeColor="0" id="2072120626944" parent="2072120731552" left="0" top="0" right="225" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="790.741" y="451.852" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="2072120624448" parent="2072120731552" left="0" top="0" right="148" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="790.741" y="401.852" haveBus="false" idtf_pos="3">
@@ -96,7 +96,7 @@
         <node type="node/const/perm/group" idtf="lang_ru" shapeColor="0" id="2072120622368" parent="2072120730784" left="0" top="0" right="81" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="844.444" y="594.444" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_software_name_2" shapeColor="0" id="2072120620912" parent="2072120730784" left="0" top="0" right="225" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="794.444" y="644.444" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_git_testing_software_name_2" shapeColor="0" id="2072120620912" parent="2072120730784" left="0" top="0" right="225" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="794.444" y="644.444" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="2072120620080" parent="2072120730784" left="0" top="0" right="148" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="794.444" y="594.444" haveBus="false" idtf_pos="3">
@@ -173,7 +173,7 @@
         <node type="node/const/perm/group" idtf="lang_ru" shapeColor="0" id="2072121265232" parent="2072120732896" left="0" top="0" right="81" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="862.963" y="777.778" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="_software_name_3" shapeColor="0" id="2072121268768" parent="2072120732896" left="0" top="0" right="225" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="812.963" y="827.778" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="_git_testing_software_name_3" shapeColor="0" id="2072121268768" parent="2072120732896" left="0" top="0" right="225" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="812.963" y="827.778" haveBus="false" idtf_pos="0">
             <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[ ]]></content>
         </node>
         <node type="node/const/perm/relation" idtf="nrel_main_idtf" shapeColor="0" id="2072121263568" parent="2072120732896" left="0" top="0" right="148" bottom="33" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="812.963" y="777.778" haveBus="false" idtf_pos="3">
