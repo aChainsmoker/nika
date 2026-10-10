@@ -14,6 +14,54 @@ stakeholder_linux_foundation
      open source projects and the certification programs of market participants.]
     (* <- lang_en;; *);;
 
+stakeholder_linus_torvalds
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Линус Торвальдс]
+    (* <- lang_ru;; *);
+    [Linus Torvalds]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Программист, создавший ядро Linux и участвующий в определении направления его
+     разработки; заинтересован в качестве и устойчивом развитии ядра.]
+    (* <- lang_ru;; *);
+    [A programmer who created the Linux kernel and participates in directing its development;
+     he is interested in the kernel's quality and sustainable evolution.]
+    (* <- lang_en;; *);;
+
+stakeholder_red_hat
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [компания Red Hat]
+    (* <- lang_ru;; *);
+    [Red Hat]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Компания, предлагающая корпоративные продукты на базе Linux, включая Red Hat Enterprise
+     Linux, а также платные подписки и техническую поддержку.]
+    (* <- lang_ru;; *);
+    [A company offering enterprise products based on Linux, including Red Hat Enterprise Linux,
+     as well as paid subscriptions and technical support.]
+    (* <- lang_en;; *);;
+
+stakeholder_canonical
+<- concept_stakeholder;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [компания Canonical]
+    (* <- lang_ru;; *);
+    [Canonical]
+    (* <- lang_en;; *);
+=> nrel_note:
+    [Компания, развивающая дистрибутив Ubuntu на базе Linux и предлагающая корпоративные
+     подписки и поддержку, в том числе Ubuntu Pro.]
+    (* <- lang_ru;; *);
+    [A company developing the Linux-based Ubuntu distribution and offering enterprise
+     subscriptions and support, including Ubuntu Pro.]
+    (* <- lang_en;; *);;
+
 stakeholder_postgresql_global_development_group
 <- concept_stakeholder;
 <- concept_wit_entity;

@@ -1,0 +1,31 @@
+concept_message_about_software_stakeholders
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о заинтересованных сторонах программного обеспечения]
+        (* <- lang_ru;; *);
+    [message about software stakeholders]
+        (* <- lang_en;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о заинтересованных сторонах программного обеспечения)]
+            (* <- lang_ru;; *);
+        [Def. (message about software stakeholders)]
+            (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о заинтересованных сторонах программного обеспечения — атомарное
+             сообщение, содержащее вопрос о лицах и организациях, связанных с программным
+             обеспечением как заинтересованные стороны.]
+                (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            nrel_software_stakeholder
+        };;
+    *);;

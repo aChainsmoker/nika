@@ -2,7 +2,7 @@
 <GWF version="2.0">
     <staticSector>
         <!-- Следствие: _reply_message -->
-        <node type="node/const/perm/group" idtf="concept_message_about_software_postgresql_usage" shapeColor="0" id="7701010101010" parent="7701010100000" x="432" y="643" haveBus="false" idtf_pos="2">
+        <node type="node/const/perm/group" idtf="concept_message_about_software_stakeholders" shapeColor="0" id="7701010101010" parent="7701010100000" x="432" y="643" haveBus="false" idtf_pos="2">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/var/perm/general" idtf="_reply_message" shapeColor="0" id="7701010101020" parent="7701010100000" x="429" y="742" haveBus="false" idtf_pos="0">
@@ -42,7 +42,7 @@
         <node type="node/var/perm/general" idtf="_entity" shapeColor="0" id="7701010201010" parent="7701010200000" x="429" y="287" haveBus="false" idtf_pos="1">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/group" idtf="concept_message_about_software_postgresql_usage" shapeColor="0" id="7701010201020" parent="7701010200000" x="218" y="226" haveBus="false" idtf_pos="3">
+        <node type="node/const/perm/group" idtf="concept_message_about_software_stakeholders" shapeColor="0" id="7701010201020" parent="7701010200000" x="218" y="226" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="7701010201030" parent="7701010200000" x="292" y="236" haveBus="false" idtf_pos="0">
@@ -88,7 +88,7 @@
         <node type="node/const/perm/group" idtf="atomic_logical_formula" shapeColor="0" id="7701010301040" parent="0" x="79" y="461" haveBus="false" idtf_pos="1">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/group" idtf="concept_phrase_about_software_postgresql_usage" shapeColor="0" id="7701010301050" parent="0" x="861" y="466" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/group" idtf="concept_phrase_about_software_stakeholders" shapeColor="0" id="7701010301050" parent="0" x="861" y="466" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/role" idtf="rrel_1" shapeColor="0" id="7701010301060" parent="0" x="773" y="521" haveBus="false" idtf_pos="0">
@@ -100,7 +100,7 @@
         <node type="node/const/perm/group" idtf="concept_answer_on_standard_message_rule_priority_2" shapeColor="0" id="7701010301080" parent="0" x="577" y="380" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="lr_message_about_software_postgresql_usage" shapeColor="0" id="7701010301090" parent="0" x="567" y="466" haveBus="false" idtf_pos="2">
+        <node type="node/const/perm/general" idtf="lr_message_about_software_stakeholders" shapeColor="0" id="7701010301090" parent="0" x="567" y="466" haveBus="false" idtf_pos="2">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/relation" idtf="nrel_answer_pattern" shapeColor="0" id="7701010301100" parent="0" x="631" y="521" haveBus="false" idtf_pos="0">

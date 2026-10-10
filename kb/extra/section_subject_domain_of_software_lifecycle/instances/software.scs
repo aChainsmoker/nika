@@ -14,7 +14,11 @@ software_linux_kernel
      is developed and maintained by a large community of developers.]
     (* <- lang_en;; *);
 => nrel_software_problem: problem_linux_scheduler_latency;
-=> nrel_software_stakeholder: stakeholder_linux_foundation;
+=> nrel_software_stakeholder:
+    stakeholder_linux_foundation;
+    stakeholder_linus_torvalds;
+    stakeholder_red_hat;
+    stakeholder_canonical;
 => nrel_software_requirement: requirement_linux_scheduler_latency;
 => nrel_software_planning: planning_linux_scheduler_subsystem;
 => nrel_software_requirements_gathering: requirements_gathering_linux_scheduler_latency;
@@ -36,7 +40,7 @@ software_postgresql
 <- concept_software;
 <- concept_wit_entity;
 => nrel_main_idtf:
-    [ПостгресКьюЭл]
+    [База данных PostgreSQL]
     (* <- lang_ru;; *);
     [PostgreSQL]
     (* <- lang_en;; *);
